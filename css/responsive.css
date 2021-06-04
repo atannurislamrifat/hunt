@@ -1,0 +1,1228 @@
+@media (min-width:320px) and (max-width:575px){
+
+    /* ====== nav bar part========= */
+    nav button i{
+        font-size: 20px;
+        color: #fff;
+    }
+    nav ul li{
+        margin-right: 0px;
+        
+    }
+    nav ul li a:hover{
+        color:#fec600;
+    }
+    nav ul{
+        text-align: center;
+    }
+    nav ul li a:hover:after{
+        width: 0;
+
+    }
+    .navbar-nav{
+        background: #000;
+    }
+    /* ============nav end======== */
+    /* ========= bannner start=========== */
+    #banner-bottom{
+        display: none;
+    }
+    #about-part .title {
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    #banner-part .banner-slider .banner .overlay{
+        padding-top: 70px;
+    }
+    #banner-part .banner-slider .banner .overlay h2{
+        font-size: 25px;
+    }
+
+    #banner-part .banner-slider .banner .overlay h1{
+        font-size: 56px;
+    }
+    #banner-part .banner-slider .banner .overlay p{
+        width: auto;
+    }
+    #banner-part{
+        position: relative;
+    }
+    #banner-part .slick-dots{
+        font-size: 0;
+        
+        position: absolute;
+        top: 90%;
+        left: 50%;
+       
+        transform:translateX(-50%);
+    }
+    #banner-part .slick-dots li{
+        display: inline-block;
+    }
+    #banner-part .slick-dots li button{
+  
+        margin: 0 10px;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: transparent;
+        border: 1px solid #fec600;
+        
+        
+     
+       
+    }
+    
+   
+    #banner-part .slick-dots .slick-active button {
+        background: #fec600;
+    }
+    /* =========== bannner end======= */
+
+    /* ======about stat==================== */
+    #about-part .title {
+      
+        margin-top: 40px;
+    }
+    #about-part .title p{
+        font-size: 14px;
+        width: 300px;
+    }
+    #about-part .iteam-round{
+        display: none;
+    }
+
+    .offset-4{
+        margin-left: 0;
+    }
+  
+    #about-part .iteam-down{
+        margin-top: 30px;
+    }
+    #about-part .iteam-left{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    #about-part .iteam-right{
+        text-align: center;
+    }
+   
+   
+    #about-part .shape{
+        display: none;
+    }
+    #about-part i{
+        display: none;
+    }
+
+
+
+    /* ============about end============== */
+
+
+    /* ==========protfolio start======== */
+    #protfolio-top{
+        display: none;
+    }
+    #protfolio .overlay{
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+
+    #protfolio{
+        margin-top: -80px;
+        
+    }
+    #protfolio .title p{
+        width: 300px;
+        font-size: 14px;
+    }
+    #protfolio-bottom{
+        display: none;
+
+    }
+
+
+    /* ============protfolio-end============ */
+
+
+     /* ============service-start============ */
+     #service-part{
+         margin-top: 250px;
+     }
+     #service-part .title {
+        margin-bottom: 15px;
+    }
+     #service-part .title p{
+        font-size: 14px;
+        width: 300px;
+    }
+    #service-part .service{
+        flex-direction: column;
+    }
+    #service-part .service:nth-child(odd){
+        flex-direction: column;
+    }
+    #service-part .service .details{
+        width: 100%;
+        margin-top: 25px;
+    }
+    #service-part .service .details .shape{
+        display: none;
+    }
+    #service-part .service .img{
+        width: 100%;
+    }
+    #service-part .service .text {
+        width: 100%;
+       
+        justify-content: center;
+    }
+    #service-part .service:nth-child(odd) .text{
+        justify-content:center;
+    }
+    #service-part .service:nth-child(odd) .details p{
+        text-align: left;
+    }
+    #service-part .prev{
+        top: -28%;
+    }
+    #service-part .service .text h3{
+        margin-bottom: 40px;
+    }
+    #service-part .line{
+        height: 0px;
+    }
+  
+    #service-part{
+        margin-bottom: 70px;
+    }
+
+
+  #service-part .slick-dots{
+        font-size: 0;
+        
+        position: absolute;
+        top: 105%;
+        left: 50%;
+       
+        transform:translateX(-50%);
+    }
+  #service-part .slick-dots li{
+        display: inline-block;
+    }
+   #service-part .slick-dots li button{
+  
+        margin: 0 10px;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: transparent;
+        border: 1px solid #fec600;       
+    }
+    
+   
+   #service-part .slick-dots .slick-active button {
+        background: #fec600;
+    }
+
+
+      /* ============service-end============ */
+
+      /* ============test-strat============ */
+
+      #test-top{
+          display: none;
+      }
+      #test-part{
+          margin-top: 0;
+      }
+      
+      #test-part .overlay .line{
+          height: 0px;
+      }
+      #test-part .overlay{
+        padding-bottom: 50px;
+        padding-top: 40px;
+      }
+      #test-part .overlay .iteam p{
+          font-size: 14px;
+      }
+      #test-part .overlay .text{
+          width: 300px;
+          margin-top: 30px;
+      }
+      #test-part .overlay .shape{
+        top: -2%;
+        left: 50%;
+      }
+      #test-bottom{
+          display: none;
+      }
+
+
+
+      /* ============test-end============ */
+
+      
+      /* ============pricing- start============ */
+
+
+      #pricing-part {
+        padding-top: 250px;
+    }
+    #pricing-part .title p{
+        font-size: 14px;
+        width: 300px;
+    }
+    #pricing-part .plan {
+        
+        margin-bottom: 20px;
+        margin-top: 0px;
+        
+    }
+      /* ============pricing-end============ */
+
+      /* ============testimonial -part-end============ */
+    
+      #testimonial-top{
+          height: 0;
+          margin-top: 200px;
+      }
+      #testimonial .overlay .baka {
+        transform: rotate(0deg);
+        
+    }
+    #testimonial-bottom{
+        height: 0;
+        margin-top: 200px;
+    }
+    /* ============testimonial -part-end============ */
+
+    /* =========== team -part-end============ */
+    #team-part .title p{
+        font-size: 14px;
+        width: 300px;
+    }
+
+
+    /* ============ team -part-end============ */
+
+    /* ============ footer -part-end============ */
+
+    #footer-top{
+        height: 0px;
+    }
+    #footer-part .footer-shape {
+        transform: rotate(0deg);
+    }
+    #footer-part{
+        padding: 50px 0;
+    }
+    #footer-bottom{
+        height: 0px;
+        margin-top: 200px;
+    }
+    footer .logo img {
+        transform: rotate(0deg);
+    }
+    footer .logo {
+        
+        transform: rotate(0deg);
+        padding-top: 20px;
+    }
+    footer .iteam {
+        
+        margin-top: -25px;
+        text-align: center;
+    }
+    footer .socal .icon i{
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 16px;
+    }
+   
+    /* ============ footer -part-end============ */
+
+    
+
+}
+
+
+
+@media (min-width:576px) and (max-width:767px){
+
+    /* ====== nav bar part========= */
+    nav button i{
+        font-size: 20px;
+        color: #fff;
+    }
+    nav ul li{
+        margin-right: 0px;
+        
+    }
+    nav ul li a:hover{
+        color:#fec600;
+    }
+    nav ul{
+        text-align: center;
+    }
+    nav ul li a:hover:after{
+        width: 0;
+
+    }
+    .navbar-nav{
+        background: #000;
+    }
+    /* ============nav end======== */
+    /* ========= bannner start=========== */
+    #banner-bottom{
+        display: none;
+    }
+    #about-part .title {
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    #banner-part .banner-slider .banner .overlay{
+        padding-top: 70px;
+    }
+    #banner-part .banner-slider .banner .overlay h2{
+        font-size: 25px;
+    }
+
+    #banner-part .banner-slider .banner .overlay h1{
+        font-size: 56px;
+    }
+    #banner-part .banner-slider .banner .overlay p{
+        width: auto;
+    }
+    #banner-part{
+        position: relative;
+    }
+    #banner-part .slick-dots{
+        font-size: 0;
+        
+        position: absolute;
+        top: 90%;
+        left: 50%;
+       
+        transform:translateX(-50%);
+    }
+    #banner-part .slick-dots li{
+        display: inline-block;
+    }
+    #banner-part .slick-dots li button{
+  
+        margin: 0 10px;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: transparent;
+        border: 1px solid #fec600;
+        
+        
+     
+       
+    }
+    
+    
+   
+    #banner-part .slick-dots .slick-active button {
+        background: #fec600;
+    }
+    /* =========== bannner end======= */
+
+    /* ======about stat==================== */
+    #about-part .title {
+      
+        margin-top: 40px;
+    }
+    #about-part .title p{
+        font-size: 14px;
+        width: 500px;
+    }
+    #about-part .iteam-round{
+        display: none;
+    }
+
+    .offset-4{
+        margin-left: 0;
+    }
+  
+    #about-part .iteam-down{
+        margin-top: 30px;
+    }
+    #about-part .iteam-left{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    #about-part .iteam-right{
+        text-align: center;
+    }
+   
+   
+    #about-part .shape{
+        display: none;
+    }
+    #about-part i{
+        display: none;
+    }
+
+
+
+    /* ============about end============== */
+
+
+    /* ==========protfolio start======== */
+    #protfolio-top{
+        display: none;
+    }
+    #protfolio .overlay{
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+
+    #protfolio{
+        margin-top: -80px;
+        
+    }
+    #protfolio .title p{
+        width: 500px;
+        font-size: 14px;
+    }
+    #protfolio-bottom{
+        display: none;
+
+    }
+
+
+    /* ============protfolio-end============ */
+
+
+     /* ============service-start============ */
+     #service-part{
+         margin-top: 250px;
+     }
+     #service-part .title {
+        margin-bottom: 15px;
+    }
+     #service-part .title p{
+        font-size: 14px;
+        width: 500px;
+    }
+    #service-part .service{
+        flex-direction: column;
+    }
+    #service-part .service:nth-child(odd){
+        flex-direction: column;
+    }
+    #service-part .service .details{
+        width: 100%;
+        margin-top: 25px;
+    }
+    #service-part .service .details .shape{
+        display: none;
+    }
+    #service-part .service .img{
+        width: 100%;
+    }
+    #service-part .service .text {
+        width: 100%;
+       
+        justify-content: center;
+    }
+    #service-part .service:nth-child(odd) .text{
+        justify-content:center;
+    }
+    #service-part .service:nth-child(odd) .details p{
+        text-align: left;
+    }
+    #service-part .prev{
+        top: -28%;
+    }
+    #service-part .service .text h3{
+        margin-bottom: 40px;
+    }
+    #service-part .line{
+        height: 0px;
+    }
+  
+    #service-part{
+        margin-bottom: 70px;
+    }
+
+
+  #service-part .slick-dots{
+        font-size: 0;
+        
+        position: absolute;
+        top: 105%;
+        left: 50%;
+       
+        transform:translateX(-50%);
+    }
+  #service-part .slick-dots li{
+        display: inline-block;
+    }
+   #service-part .slick-dots li button{
+  
+        margin: 0 10px;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: transparent;
+        border: 1px solid #fec600;       
+    }
+    
+   
+   #service-part .slick-dots .slick-active button {
+        background: #fec600;
+    }
+
+
+      /* ============service-end============ */
+
+      /* ============test-strat============ */
+
+      #test-top{
+          display: none;
+      }
+      #test-part{
+          margin-top: 0;
+      }
+      
+      #test-part .overlay .line{
+          height: 0px;
+      }
+      #test-part .overlay{
+        padding-bottom: 50px;
+        padding-top: 40px;
+      }
+      #test-part .overlay .iteam p{
+          font-size: 14px;
+      }
+      #test-part .overlay .text{
+          width: 515px;
+          margin-top: 30px;
+      }
+      #test-part .overlay .shape{
+        top: -2%;
+        left: 50%;
+      }
+      #test-bottom{
+          display: none;
+      }
+
+
+
+      /* ============test-end============ */
+
+      
+      /* ============pricing- start============ */
+
+
+      #pricing-part {
+        padding-top: 250px;
+    }
+    #pricing-part .title p{
+        font-size: 14px;
+        width: 500px;
+    }
+    #pricing-part .plan {
+        
+        margin-bottom: 20px;
+        margin-top: 0px;
+        
+    }
+      /* ============pricing-end============ */
+
+      /* ============testimonial -part-end============ */
+    
+      #testimonial-top{
+          height: 0;
+          margin-top: 200px;
+      }
+      #testimonial .overlay .baka {
+        transform: rotate(0deg);
+        
+    }
+    #testimonial-bottom{
+        height: 0;
+        margin-top: 200px;
+    }
+    /* ============testimonial -part-end============ */
+
+    /* =========== team -part-end============ */
+    #team-part .title p{
+        font-size: 14px;
+        width: 517px;
+    }
+    .dark{
+        width: 20%;
+    }
+
+
+    /* ============ team -part-end============ */
+
+    /* ============ footer -part-end============ */
+
+    #footer-top{
+        height: 0px;
+    }
+    #footer-part .footer-shape {
+        transform: rotate(0deg);
+    }
+    #footer-part{
+        padding: 50px 0;
+    }
+    #footer-bottom{
+        height: 0px;
+        margin-top: 200px;
+    }
+    footer .logo img {
+        transform: rotate(0deg);
+    }
+    footer .logo {
+        
+        transform: rotate(0deg);
+        padding-top: 20px;
+    }
+    footer .iteam {
+        
+        margin-top: -25px;
+        text-align: center;
+    }
+    footer .socal .icon i{
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 16px;
+    }
+   
+    /* ============ footer -part-end============ */
+
+    #team-part .iteam .text .social i{
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 17px;
+    }
+
+    
+
+}
+
+@media (min-width:768px) and (max-width:991px){
+
+    /* ====== nav bar part========= */
+    nav button i{
+        font-size: 20px;
+        color: #fff;
+    }
+    nav ul li{
+        margin-right: 0px;
+        
+    }
+    nav ul li a:hover{
+        color:#fec600;
+    }
+    nav ul{
+        text-align: center;
+    }
+    nav ul li a:hover:after{
+        width: 0;
+
+    }
+    .navbar-nav{
+        background: #000;
+    }
+    /* ============nav end======== */
+    /* ========= bannner start=========== */
+    #banner-bottom{
+        display: none;
+    }
+    #about-part .title {
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    #banner-part .banner-slider .banner .overlay{
+        padding-top: 70px;
+    }
+    #banner-part .banner-slider .banner .overlay h2{
+        font-size: 25px;
+    }
+
+    #banner-part .banner-slider .banner .overlay h1{
+        font-size: 56px;
+    }
+    #banner-part .banner-slider .banner .overlay p{
+        width: 600px;
+    }
+    #banner-part{
+        position: relative;
+    }
+    #banner-part .slick-dots{
+        font-size: 0;
+        
+        position: absolute;
+        top: 90%;
+        left: 50%;
+       
+        transform:translateX(-50%);
+    }
+    #banner-part .slick-dots li{
+        display: inline-block;
+    }
+    #banner-part .slick-dots li button{
+  
+        margin: 0 10px;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: transparent;
+        border: 1px solid #fec600;
+      
+    }
+    #banner-part .banner-slider .next {
+        top: 41%;
+        right: 26px;
+    
+    }
+    #banner-part .banner-slider .prev {
+        top: 41%;
+        left: 26px;
+    
+    }
+            
+    
+   
+    #banner-part .slick-dots .slick-active button {
+        background: #fec600;
+    }
+    /* =========== bannner end======= */
+
+    /* ======about stat==================== */
+    #about-part .title {
+      
+        margin-top: 40px;
+    }
+    #about-part .title p{
+        font-size: 14px;
+        width: 500px;
+    }
+    #about-part .iteam-round{
+        margin-bottom: 20px;
+        margin-top: 0;
+    }
+
+    .offset-4{
+        margin-left: 0;
+    }
+  
+    #about-part .iteam-down{
+        margin-top: 30px;
+    }
+    #about-part .iteam-left{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    #about-part .iteam-right{
+        text-align: center;
+    }
+   
+   
+    #about-part .shape{
+        display: none;
+    }
+    #about-part i{
+        display: none;
+    }
+
+
+
+    /* ============about end============== */
+
+
+    /* ==========protfolio start======== */
+    #protfolio-top{
+        display: none;
+    }
+    #protfolio .overlay{
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+
+    #protfolio{
+        margin-top: -80px;
+        
+    }
+    #protfolio .title p{
+        width: 500px;
+        font-size: 14px;
+    }
+    #protfolio-bottom{
+        display: none;
+
+    }
+
+
+    /* ============protfolio-end============ */
+
+
+     /* ============service-start============ */
+     #service-part{
+         margin-top: 250px;
+     }
+     #service-part .title {
+        margin-bottom: 15px;
+    }
+     #service-part .title p{
+        font-size: 14px;
+        width: 500px;
+    }
+    #service-part .service{
+        flex-direction: column;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 5px;
+    }
+    #service-part .service:nth-child(odd){
+        flex-direction: column;
+    }
+    #service-part .service .details{
+        width: 100%;
+        margin-top: 25px;
+    }
+    #service-part .service .details .shape{
+        display: none;
+    }
+    #service-part .service .img{
+        width: 100%;
+    }
+    #service-part .service .text {
+        width: 100%;
+       
+        justify-content: center;
+    }
+    #service-part .service:nth-child(odd) .text{
+        justify-content:center;
+    }
+    #service-part .service:nth-child(odd) .details p{
+        text-align: left;
+    }
+    #service-part .prev{
+        top: -28%;
+    }
+    #service-part .service .text h3{
+        margin-bottom: 40px;
+    }
+    #service-part .line{
+        height: 0px;
+    }
+  
+    #service-part{
+        margin-bottom: 70px;
+    }
+
+
+  #service-part .slick-dots{
+        font-size: 0;
+        
+        position: absolute;
+        top: 105%;
+        left: 50%;
+       
+        transform:translateX(-50%);
+    }
+  #service-part .slick-dots li{
+        display: inline-block;
+    }
+   #service-part .slick-dots li button{
+  
+        margin: 0 10px;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: transparent;
+        border: 1px solid #fec600;       
+    }
+    
+   
+   #service-part .slick-dots .slick-active button {
+        background: #fec600;
+    }
+    #service-part .service .details p{
+        text-align: center;
+        font-size: 14px;
+    }
+    #service-part .service:nth-child(2n+1) .details p{
+        text-align: center;
+        font-size: 14px;
+    }
+
+
+      /* ============service-end============ */
+
+      /* ============test-strat============ */
+
+      #test-top{
+          display: none;
+      }
+      #test-part{
+          margin-top: 0;
+      }
+      
+      #test-part .overlay .line{
+          height: 0px;
+      }
+      #test-part .overlay{
+        padding-bottom: 50px;
+        padding-top: 40px;
+      }
+      #test-part .overlay .iteam p{
+          font-size: 14px;
+      }
+      #test-part .overlay .text{
+          width: 690px;
+          margin-top: 30px;
+      }
+      #test-part .overlay .shape{
+        top: -2%;
+        left: 50%;
+      }
+      #test-bottom{
+          display: none;
+      }
+
+
+
+      /* ============test-end============ */
+
+      
+      /* ============pricing- start============ */
+
+
+      #pricing-part {
+        padding-top: 250px;
+    }
+    #pricing-part .title p{
+        font-size: 14px;
+        width: 500px;
+    }
+    #pricing-part .plan {
+        
+        margin-bottom: 20px;
+        margin-top: 0px;
+        
+    }
+      /* ============pricing-end============ */
+
+      /* ============testimonial -part-end============ */
+    
+      #testimonial-top{
+          height: 0;
+          margin-top: 200px;
+      }
+      #testimonial .overlay .baka {
+        transform: rotate(0deg);
+        
+    }
+    #testimonial-bottom{
+        height: 0;
+        margin-top: 200px;
+    }
+    /* ============testimonial -part-end============ */
+
+    /* =========== team -part-end============ */
+    #team-part .title p{
+        font-size: 14px;
+        width: 517px;
+    }
+    .dark{
+        width: 20%;
+    }
+
+
+    /* ============ team -part-end============ */
+
+    /* ============ footer -part-end============ */
+
+    #footer-top{
+        height: 0px;
+    }
+    #footer-part .footer-shape {
+        transform: rotate(0deg);
+    }
+    #footer-part{
+        padding: 50px 0;
+    }
+    #footer-bottom{
+        height: 0px;
+        margin-top: 200px;
+    }
+    footer .logo img {
+        transform: rotate(0deg);
+    }
+    footer .logo {
+        
+        transform: rotate(0deg);
+        padding-top: 20px;
+    }
+    footer .iteam {
+        
+        margin-top: -25px;
+        text-align: center;
+    }
+    footer .socal .icon i{
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 16px;
+    }
+    footer .iteam p{
+        font-size: 14px;
+        padding: 0;
+    }
+    footer .iteam .personal{
+        font-size: 14px;
+        padding: 0;
+    }
+    footer .iteam .hunt{
+        font-size: 14px;
+        padding: 0; 
+    }
+   
+    /* ============ footer -part-end============ */
+
+    
+
+}
+
+@media (min-width:992px) and (max-width:1199px){
+
+    
+nav{
+    position: fixed!important; 
+  
+   top: 0;
+   left: 0;
+   width: 100%;
+
+   z-index: 999; 
+   border-bottom: 1px solid rgba(254, 198,.1) ;
+   transition: .4s;
+   
+}
+nav ul li{
+   margin-right: 30px;
+   position: relative;
+}
+nav ul li a{
+   color: #fff;
+   font-family: 'Raleway', sans-serif;
+   font-size: 16px;
+   font-weight: 500;
+   transition: .4s;
+}
+
+nav ul li a::after{
+   width: 0%;
+   height: 3px ;
+   background: #fec600;
+   position: absolute;
+   bottom: -20px;
+   left: 0;
+   content: "";
+   transition: .4s;
+}
+
+nav ul li a:hover::after{
+   width: 100%;
+}
+
+
+nav ul li a:hover{
+   color:#fec600;
+}
+.stickumenu{
+  
+   background: #000!important;
+
+}
+
+    /* ==========about part======= */
+
+    #about-part .iteam-round .img {
+        width: 250px;
+        height: 250px;
+       
+    }
+    #about-part .iteam-round{
+        width: 290px;
+        height: 290px;
+    }
+    #about-part .iteam-left .shape{
+        width: 20px;
+        height: 20px;
+    }
+ #about-part .iteam-down .shape{
+        width: 20px;
+        height: 20px;
+    }
+    #about-part .iteam-right .shape{
+        width: 20px;
+        height: 20px;
+    }
+    #about-part .iteam .shape{
+        width: 20px;
+        height: 20px;
+    }
+    #about-part .iteam-left i{
+        right: -13%;
+    }
+    #about-part .iteam-down i{
+        top: -26%;
+    }
+    #about-part .iteam-right i{
+        left: -13%;
+    }
+    #about-part .iteam i{
+        bottom: -26%;
+    }
+
+    #service-part{
+        margin-top: 0px;
+    }
+    #service-part .next{
+        bottom: -17%;
+    }
+    
+    #test-part .overlay .iteam p {
+        font-size: 13px;
+    }
+    #test-part .overlay .text{
+        width: 704px;
+    }
+    #pricing-part {
+        padding-top: 0px;
+    }
+    #pricing-part .plan{
+        margin-top: 0;
+    }
+    #team-part{
+        padding-top: 2px;
+    }
+    
+}
+@media(min-width:1200px) and (max-width:1399px){
+    /* #test-part .overlay .line{
+        left: 14.5%;
+    } */
+}
